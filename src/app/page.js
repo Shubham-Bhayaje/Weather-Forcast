@@ -86,21 +86,21 @@ export default function Home() {
               </p>
             </div>
             <div className="flex items-center justify-center gap-4 mt-6 mb-8">
-              <div className="w-28 h-28 bg-white rounded-lg flex flex-col items-center justify-center p-2">
+              <div className="w-24 h-24 bg-white rounded-lg flex flex-col items-center justify-center p-2">
                 <img src="./wind.png" className="w-8 h-8"></img>
                 <h2 className="font-medium text-customGreen">
                   {current.wind_kph} Km/h
                 </h2>
                 <h5 className="font-serif">Wind</h5>
               </div>
-              <div className="w-28 h-28 bg-white rounded-lg flex flex-col items-center justify-center p-2">
+              <div className="w-24 h-24 bg-white rounded-lg flex flex-col items-center justify-center p-2">
                 <img src="./drop.png" className="w-8 h-8"></img>
                 <h2 className="font-medium text-customGreen">
                   {current.humidity}%
                 </h2>
                 <h5 className="font-serif">Humidity</h5>
               </div>
-              <div className="w-28 h-28 bg-white rounded-lg flex flex-col items-center justify-center p-2">
+              <div className="w-24 h-24 bg-white rounded-lg flex flex-col items-center justify-center p-2">
                 <img src="./eye.png" className="w-8 h-8"></img>
                 <h2 className="font-medium text-customGreen">
                   {current.vis_km} Km
